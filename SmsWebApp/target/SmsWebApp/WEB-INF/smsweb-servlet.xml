@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+ 
+	<bean id="SmsWebMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/test.htm">testController</prop>
+				<prop key="/manageSchool.htm">manageSchoolController</prop>
+			</props>
+		</property>
+    </bean>
+    <bean id="testController" class="com.sssoftware.sms.controller.testController">
+		<property name="methodNameResolver" ref="paramResolver" />
+	</bean>
+	 <bean id="manageSchoolController" class="com.sssoftware.sms.controller.ManageSchoolController">
+		<property name="methodNameResolver" ref="paramResolver" />
+	</bean>
+	<bean id="paramResolver" class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver">
+		  <property name="paramName"><value>action</value></property>
+	</bean> 
+	
+	
+	
+	<bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
+        <property name="prefix">
+            <value>/jsp/</value>
+        </property>
+        <property name="suffix">
+            <value>.jsp</value>
+        </property>
+    </bean>
+ 
+</beans>

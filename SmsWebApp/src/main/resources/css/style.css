@@ -1,0 +1,164 @@
+body{margin:0px; padding:0px; background:url(../images/bg_background.png) bottom #FFF repeat-x}
+#header{margin-left:10px; margin-top:15px;}
+
+#content{overflow:hidden;} 
+#leftcontent{margin:15px 10px 15px 15px; background:#fbfbfb; width:700px; height:500px; border:1px solid #dadada; border-radius:5px; float:left;} 
+#rightcontent{margin:15px 10px 15px 3px; background:#f4f4f4; border:1px solid #dadada; width:300px; height:500px; float:left; border-radius:5px;}
+.box{margin:15px 5px 0px 20px; float:left;}
+.box2{margin:5px 0px 0px 10px; float:left; font-family:"Times New Roman", Times, serif; color:#3399FF; text-decoration: none;}
+
+a:link{
+	text-decoration:none;
+	}
+a:hover{
+	text-decoration:none;
+	color:#46a1bd;
+	}
+
+ 
+ul.a {list-style-type:circle;}
+
+.spiral{
+	position:absolute;
+	top:95px;
+	border:solid 0px #000;
+	left:550px;
+	background:url(../images/bg_spiral.png) repeat-x;
+	width:54px;
+	min-height:480px;
+	}
+	
+
+#right_logo{
+	width:350px;
+	background:#e6e6e6;
+	border-radius:10px;
+	position:relative;
+	left:600px;
+}
+
+
+
+/* container Place for whole Page */
+
+#container{
+	width:1000px;
+	margin:0px auto;
+	border:solid 0px #000;
+	}
+
+#head_area{
+	width:100%;
+	margin:0px auto;
+	padding:0px;
+	}
+	
+.right_content{
+	background:#e6e6e6;
+	width:350px;
+	height:40px;
+	margin-top:-64px;	
+	float:right;
+	margin-right:100px;
+	border-radius:0px 0px 10px 10px ;
+	padding:10px;
+	
+	}
+
+.title_admin{
+	font-family:"HelveticaNeueLT Com 45 Lt", "Helvetica LT Std", "Helvetica LT Std Black", "Helvetica World";
+	font-size:20px;
+	color:#222222;
+	}
+	
+.left_area{
+	background:#fbfbfb;
+	border:solid 1px #dbdada;
+	width:700px;
+	border-radius:6px;
+	float:left;
+	padding:10px;
+	height:480px;
+	}
+	
+.right_area{
+	background:#fbfbfb;
+	border:solid 1px #dbdada;
+	width:240px;
+	border-radius:6px;
+	float:left;
+	margin-right:15px;
+	padding:10px;
+	height:480px;
+	}
+	
+.fotter_nav{
+	color:#333333;
+	text-align:center;
+	line-height:35px;
+	}
+
+.input_css{
+	background:#FFFFFF;
+	border-radius:10px;
+	width:180px;
+	margin-left:10px;
+	outline:none;
+	padding:5px 5px 5px 10px;
+	
+	}
+	
+.title_search,
+.title_search_table{
+	font-family:"HelveticaNeueLT Com 45 Lt", "Helvetica LT Std", "Helvetica LT Std Black", "Helvetica World";
+	font-size:14px;
+	color:#333333;
+	padding-left:10px;
+	
+	}
+.title_search_table{
+	padding-left:0px;
+	
+	}
+.title_search_table input{
+	width:130px;
+	}
+	
+
+.search_btn{
+	background:#F1f1f1;
+	border:solid 1px #ccc;
+	padding:6px;
+	border-radius:10px;
+	cursor:pointer;
+	cursor:hand;
+	}
+
+.title_search input{
+	outline:none;
+	}
+
+.table_bg_search th{
+	padding-left:10px;
+	}
+	
+.table_bg_search td{
+	padding-left:10px;
+	border-bottom:solid 1px #FFF;
+	line-height:25px;
+	color:#000000;
+	}
+	
+.red{
+	color:#FF0000;
+	}
+.title{
+	padding-top:5px;
+	padding-bottom:5px;	
+	}
+.btn{
+	background:#F1f1f1;
+	border:solid 1px #ccc;
+	border-radius:10px;
+	padding:10px;
+}

@@ -1,0 +1,58 @@
+body{padding:0px; margin:0px; font-family: verdana, arial, sans-serif;}
+img, div, input { behavior: url("css/iepngfix.htc"); }
+.main1 {clear:both; width:1000px; margin:0 auto; padding-bottom:5px;  border-top:0px solid #fe7400; border-bottom:0px solid #fe7400; }
+.main1 .loginleft{ float:left; width:740px; border:1px solid #ccc; padding:0px; text-align:center;}
+.main1 .loginright{ float:right; border:1px solid #ccc; width:250px; display:block;}
+
+.leftpart{float:left; width:680px;}
+.logintext{border:0px solid #f00; margin:10px;}
+.logintext p{ padding:3px 0; margin:0px;}
+.logintext .cont_title{ font-weight:bold; font-size:13px;}
+/*--------------------------------------------Table 1 Start  ------------------------------------------------------*/
+.logintext table{border: 1px solid #beb8a8;border-collapse: collapse; color: #555; font-size:11px;text-transform:capitalize;}
+.logintext th{border: 1px solid #beb8a8; }
+.logintext td {border: 1px solid #beb8a8;}
+
+.logintext caption {font-size: 150%;font-weight: bold;margin: 5px; color:#2D549E;}
+
+.logintext td{padding: 5px 0 5px 4px; }
+.logintext th {padding: 4px; }
+.logintext thead th {font-size: 12px;background:#E6EDF5;  color:#fff;}
+.logintext tbody th {font-weight: bold; text-align:center;}
+.logintext tbody th img{border:1px solid #a8a394;}
+.logintext tbody tr { background: #ebeae6; }
+
+.logintext tbody tr.odd { background: #e3e0d7;}
+
+.logintext td.tdbtns{text-align: right; padding-right:20px;}
+
+/*--------------------------------------------Table 1 Complete ------------------------------------------------------*/
+.logincontent{ padding:5px; font-size:11px;}
+.centerlogo{text-align:center; padding:0px; margin:0px; border:3px solid #92A500; height:80px; overflow:hidden;}
+.imgcont{ border:0px solid #ccc; margin:5px 0;}
+.titletopic{font-size:13px; color:#fe7400; font-weight:bold;}
+.topiccont{ text-align:justify; font-size:11px; line-height:18px;}
+
+.mylogintable {margin:5px 0 0 0; padding:0px; background-color:#fff; }
+.mylogintable table{ border-top:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+.mylogintable td { border-left:1px solid #ccc; padding: 0 3px 0 3px;}
+
+.lbox{ padding:6px 3px 0 3px; margin:0px 0px 0 0px;}
+.logintop{margin:0px auto 0 auto; height:80px;	overflow:hidden; border:3px solid #FE7400;}
+.logintop img{ float:left;padding:0 0px 0 5px;}
+.logintop .lgnlabel{float:left; font-size:20px !important; font-weight:bold; margin-top:30px; color:#FE7400;}
+.mlgnlabel{font-size:12px; color:#92a500;}
+.labelremember{font-size:12px; font-weight:bold; color:#92a500;}
+.newuser{ margin:0px 0  0 0; background-color:#fff; text-align:center; border-top:1px solid #ccc;}
+.createuser{ margin:5px 0; text-align:center;}
+.createuser	a { color:#fe7400; font-weight:bold; text-decoration:none;}
+
+.clientlogincont{clear:both;background-color:#fdffee; margin: 5px auto 0 auto ;height:250px; }
+.clientlogincont table{ width:96%; margin:5px auto 0 auto;}
+.clientlogincont table td{line-height:29px;}
+.clientlogincont table .alr{text-align:right; padding-right:10px; }
+.lgnlnks{ font-size:14px; color:#fe7400; }
+.lgnlnks a{font-weight:bold; color:#fe7400; text-decoration:none;}
+.clientlogincont table td table td{ padding:0px !important;}
+.lgntxt{ background:#fff url(../images/textboxBG.jpg) repeat-x left top; border:1px solid #000000; width:90%; font-size:11px; font-family: verdana, arial, sans-serif; text-transform:capitalize;}
+
